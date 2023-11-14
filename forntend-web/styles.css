@@ -1,0 +1,54 @@
+body {
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .padTitle {
+      padding: 1rem;
+    }
+
+    .marginButton {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    /* #preparing1 button:first-child {
+        color: green;
+        margin-top: 1.5rem;
+    }
+
+    #preparing1 button:last-child {
+        color: red;
+    } */
+}
+
+@media screen and (min-width: 1400px) {
+    .padTitle {
+        padding: 3rem;
+      }
+
+    .marginButton {
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .padTitle {
+        padding: 3rem;
+      }
+
+    .marginButton {
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .padTitle {
+        padding: 3rem;
+      }
+
+    .marginButton {
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+  }
